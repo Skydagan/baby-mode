@@ -100,8 +100,8 @@ self.addEventListener('sync', (event) => {
 self.addEventListener('push', (event) => {
   const options = {
     body: 'Baby Mode notification',
-    icon: '/assets/icons/icon-192x192.png',
-    badge: '/assets/icons/icon-72x72.png',
+    icon: '/assets/icons/icon-192x192.svg',
+    badge: '/assets/icons/icon-72x72.svg',
     tag: 'baby-mode-notification',
     requireInteraction: false,
     silent: true
